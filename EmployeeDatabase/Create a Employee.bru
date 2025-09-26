@@ -1,0 +1,21 @@
+meta {
+  name: Create a Employee
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/api/employees/add
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name" : "SamiBoi"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "EmployeeDatabase",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
